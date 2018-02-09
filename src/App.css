@@ -1,0 +1,73 @@
+.App{
+  height: 100vh;
+}
+
+.NotesList{
+  display: inline-block;
+  width:30%;
+  height:100vh;
+}
+
+.EditorPanel{
+  display: inline-block;
+  width:70%;
+  vertical-align: top;
+  height:100vh;
+}
+
+.EditMenuPanel{
+  width:100%;
+  height:40px;
+  background-color: rgb(235,235,235);
+}
+
+.TitleTextArea{
+  width:100%;
+  height: 80px;
+  font-size: 30px;
+  padding:20px;
+  color: darkorange;
+  font-weight: 600;
+  resize: none;
+  margin:0;
+  border: none;
+  overflow: hidden;
+}
+
+.ContentTextArea{
+  width:100%;
+  font-size: 20px;
+  padding: 40px;
+  font-weight: 400;
+  resize: none;
+  margin:0;
+  border: 1px rgb(233, 233, 233) solid;
+  height:calc(100% - 124px);
+  color: #555;
+}
+
+.Item{
+  padding:20px;
+  margin:0px;
+  height: 100px;
+  background-color: rgb(249, 247, 249);
+  border:1px rgb(233, 233, 233) solid;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ItemTitle{
+  font-size: 1.2em;
+  font-weight: 500;
+  padding:0;
+  margin: 0;
+  color: darkorange;
+}
+
+.ItemContent{
+  font-size: 0.9em;
+  font-weight: 100;
+  padding:0;
+  margin: 0;
+  color: #555;
+}

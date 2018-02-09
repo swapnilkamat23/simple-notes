@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 class Note extends Component {
   render() {
     return (
-        <li>{this.props.note.title} - {this.props.note.content}</li>
+        <div className="Item">
+          <p className="ItemTitle">{this.props.note.title}</p>
+          <p className="ItemContent">{this.props.note.content}</p>
+        </div>
     );
   }
 }

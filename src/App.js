@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NotesList from './components/NotesList'
+import EditorPanel from './components/EditorPanel'
 import './App.css';
 
 class App extends Component {
@@ -26,7 +27,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NotesList notes={this.state.notes}/>
+          <NotesList notes={this.state.notes}/>
+          <EditorPanel />
       </div>
     );
   }
